@@ -1,0 +1,83 @@
+header{
+    height: 150px;
+}
+.rounded{
+    width: 80px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.container section{
+    width: 80%;
+    margin: 0 auto;
+}
+#nav-item1{
+    color: 	#000000;
+    font-size: 17px;
+    text-align: center;
+}
+.nav-pills .nav-item:hover{
+    background-color: #fab047;
+}
+.icon-login-signup{
+    display: block;
+    margin-top: -45px;
+    margin-left: 70%;
+}
+.btn-outline-warning{
+    margin: 10px;
+}
+header .fs-2{
+    position: relative;
+    top: -52px;
+    margin-left: 90px;
+    font-weight: 100px;
+    
+}
+header .input-group{
+    width: 500px;
+    position: relative;
+    top: -107px;
+    margin-left: 50%;
+
+}
+header .input-group .form-control {
+    border: 1px solid orange;
+}
+.btn-outline-secondary{
+    border: 1px solid orange;
+}
+.col-7{
+    text-align: justify;
+}
+.mx-auto{
+    margin: 50px;
+    width: 600px;
+}
+.list-group-item{
+    text-align: start;
+}
+.card-img-top{
+    height: 300px;
+}
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row .col-6,.col-4{
+    padding: 15px;
+}
+footer{
+    margin-top: 50px;
+}
+.col-7{
+    margin-top: 50px;
+}
+.col-7 ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: -30px;
+    padding: 7px;
+}
