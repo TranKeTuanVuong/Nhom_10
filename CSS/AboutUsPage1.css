@@ -1,21 +1,48 @@
 header{
     height: 150px;
+    font-family: cursive;
+    background-image: url(..//Image/s-Home.gif);
+    background-size: 190px;
+    background-repeat: repeat-x;
 }
 .rounded{
     width: 80px;
+    opacity: 0.9;
 }
 .container{
     width: 100%;
     margin: 0 auto;
+    font-family: cursive;
 }
 .container section{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
+#font-logo{
+    font-family: cursive;
+    font-weight: 800;
+    color: white;
+}
+.dropdown-item:hover{
+    background-color:  orange;
+}
+#button-addon2{
+    margin-top: 9px;
+    height: 39px !important;
+}
+#button-addon2:hover{
+    background-color: orange;
+}
+#search-header input{
+    height: 38px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
 #nav-item1{
-    color: 	#000000;
+    color: white;
     font-size: 17px;
     text-align: center;
+    font-weight: 800;
 }
 .nav-pills .nav-item:hover{
     background-color: #fab047;
@@ -34,6 +61,9 @@ header .fs-2{
     margin-left: 90px;
     font-weight: 100px;
     
+}
+.fs-2, .fs-3, h5{
+    font-family: cursive;
 }
 header .input-group{
     width: 500px;

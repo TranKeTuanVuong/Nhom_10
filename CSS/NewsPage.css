@@ -1,17 +1,50 @@
+.container{
+    font-family: cursive;
+}
 header{
     height: 150px;
+    font-family: cursive;
+    background-image: url(..//Image/s-Home.gif);
+    background-size: 190px;
+    background-repeat: repeat-x;
 }
 .rounded{
     width: 80px;
+    opacity: 0.9;
 }
-.container header,footer, section{
+#font-logo{
+    font-family: cursive;
+    font-weight: 800;
+    color: white;
+}
+#button-addon2{
+    margin-top: 9px;
+    height: 39px !important;
+}
+#button-addon2:hover{
+    background-color: orange;
+}
+#search-header input{
+    height: 38px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+.fs-3, .fst-italic, h5{
+    font-family: cursive;
+    font-weight: 800;
+}
+.dropdown-item:hover{
+    background-color:  orange;
+}
+.container header, section{
     width: 100%;
     margin: 0 auto;
 }
 #nav-item1{
-    color: 	#000000;
+    color: 	white;
     font-size: 17px;
     text-align: center;
+    font-weight: 800;
 }
 .nav-pills .nav-item:hover{
     background-color: #fab047;
@@ -40,6 +73,8 @@ header .input-group{
 }
 header .input-group .form-control {
     border: 1px solid orange;
+    height: 39px;
+    margin-top: 9px;
 }
 .btn-outline-secondary{
     border: 1px solid orange;
@@ -70,6 +105,7 @@ header .input-group .form-control {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
 #new-ad .row .col-6{
     margin-top: 40px;
